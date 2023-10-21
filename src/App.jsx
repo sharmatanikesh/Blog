@@ -5,6 +5,7 @@ import {login,logout} from './store/authSlice'
 import { Header,Footer, Login } from './components'
 import authService from "./appwrite/auth"
 import Home from './pages/Home'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
@@ -28,7 +29,9 @@ function App() {
     <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
       <div className='w-full block'>
         <Header/>
-     
+        <main>
+        TODO:  <Outlet />
+        </main>
         
         <Footer/>
       </div>
