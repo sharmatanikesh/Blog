@@ -1,9 +1,6 @@
 
 # Blog
 This project is a modern web application built with React.js and Tailwind CSS, leveraging the power of Appwrite as a backend service. The primary focus of the application is to provide a flexible and user-friendly platform for managing a blog. Users can seamlessly create, update, and delete blog posts, tailoring their content and visual appeal.
-## Overview
-
-Briefly describe the purpose and goals of your project. Mention the technologies used, such as React.js, Tailwind CSS, and Appwrite.
 
 ## Live Demo
 
